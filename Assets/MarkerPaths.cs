@@ -15,6 +15,11 @@ public class MarkerPaths : MonoBehaviour {
 
     public int curMarker1;
     public int curMarker2;
+
+    public GameObject path1;
+    public GameObject path2;
+    public GameObject path3;
+
 	// Use this for initialization
 	void Start ()
     {
