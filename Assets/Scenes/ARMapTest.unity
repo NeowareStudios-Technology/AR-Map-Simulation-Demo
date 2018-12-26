@@ -479,10 +479,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _map: {fileID: 790379538}
   _locationStrings:
-  - 45.3305, -121.72
-  - 45.35, -121.71007
-  - 45.3, -121.65
-  _spawnScale: 0.5
+  - 45.33, -121.72
+  - 45.347, -121.71
+  - 45.345, -121.7
+  _spawnScale: 0.25
   _markerPrefab: {fileID: 1839187062704024, guid: 9b5b1b761a8994c07affd0a05396633b,
     type: 2}
   _spawnedObjects: []
@@ -526,7 +526,7 @@ LineRenderer:
   - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 2
-    widthMultiplier: 0.1
+    widthMultiplier: 0.05
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -1116,7 +1116,7 @@ Prefab:
     - target: {fileID: 114949404173606746, guid: c0ce4c9dacbd84ff09f18011abded7e6,
         type: 2}
       propertyPath: _panSpeed
-      value: 1
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 114378541491328834, guid: c0ce4c9dacbd84ff09f18011abded7e6,
         type: 2}
@@ -1193,7 +1193,7 @@ Prefab:
     - target: {fileID: 114378541491328834, guid: c0ce4c9dacbd84ff09f18011abded7e6,
         type: 2}
       propertyPath: _options.locationOptions.latitudeLongitude
-      value: 45.3305, -121.71007
+      value: 45.33, -121.71
       objectReference: {fileID: 0}
     - target: {fileID: 114378541491328834, guid: c0ce4c9dacbd84ff09f18011abded7e6,
         type: 2}
@@ -1462,6 +1462,11 @@ Prefab:
         type: 2}
       propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].filterOptions.filters.Array.data[1].KeyDescription
       value: Unavailable in Selected Layer.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114949404173606746, guid: c0ce4c9dacbd84ff09f18011abded7e6,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c0ce4c9dacbd84ff09f18011abded7e6, type: 2}

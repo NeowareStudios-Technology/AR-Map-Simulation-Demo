@@ -20,12 +20,14 @@ public class MarkerPaths : MonoBehaviour {
     {
         curMarker1 = 0;
         curMarker2 = 1;
-        Invoke("SetPath", 2f);
+
+       new WaitForSeconds(1);
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Update ()
+    {
+        SetPath();
 	}
 
     public void SetPath()
